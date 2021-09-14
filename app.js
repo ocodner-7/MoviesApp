@@ -1,4 +1,4 @@
-import apiKey from "./apiKey";
+import apiKey from "./.env";
 const apiURL = `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${apiKey}`;
 const imagePack = 'https://image.tmdb.org/t/p/w1280';
 const main = document.getElementById('main');
